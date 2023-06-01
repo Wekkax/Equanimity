@@ -7,6 +7,7 @@ public class Parallax : MonoBehaviour
 
     public float multiplier;
     public bool horizontalOnly;
+    public bool verticalOnly;
     public bool calculateInfiniteHorizontalPosition;
     public bool calculateInfiniteVerticalPosition;
     public bool isInfinite;
@@ -21,6 +22,7 @@ public class Parallax : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         startPosition = transform.position;
         startCameraPosition = camera.transform.position;
         if (isInfinite)
@@ -48,10 +50,17 @@ public class Parallax : MonoBehaviour
     {
         Vector3 position = startPosition;
 
-        if (horizontalOnly)
+        if (horizontalOnly == true)
             position.x += multiplier * (camera.transform.position.x - startCameraPosition.x);
         else
-            position += multiplier * (camera.transform.position - startCameraPosition);
+            position.y += multiplier * (camera.transform.position.y - startCameraPosition.y);
+
+        transform.position = position;
+
+        if (verticalOnly == true)
+            position.y += multiplier * (camera.transform.position.y - startCameraPosition.y);
+        else
+            position.x += multiplier * (camera.transform.position.x - startCameraPosition.x);
 
         transform.position = position;
 
