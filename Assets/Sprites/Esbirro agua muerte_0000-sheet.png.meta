@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 095044d9dc29fdf4ea1c4d0e4f2f9912
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2590
+        width: 815
+        height: 798
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e158428ea26b9a4bad90a561d0740fe
+      internalID: -1267848194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 2588
+        width: 798
+        height: 804
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77ca4ce0b33a7469c1715edc494cce
+      internalID: -723605981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2588
+        width: 803
+        height: 781
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fed3301624def449dee71a5511644f
+      internalID: 1565074550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 2588
+        width: 722
+        height: 750
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e131b2e74464e649a0b39494d8d23f2
+      internalID: 456407515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 2595
+        width: 720
+        height: 705
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261a46c4729637940ba5937e43d94d62
+      internalID: -1176202303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1740
+        width: 722
+        height: 729
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa89e2007491d4eacb18a8f010bcdd
+      internalID: -1947439130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1740
+        width: 749
+        height: 731
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a31c6c4f697fa4c8a7a68a6e667428
+      internalID: 1334198561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1740
+        width: 786
+        height: 724
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4233b73e6799a488015f1b49ff0820
+      internalID: 309088321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 1745
+        width: 731
+        height: 660
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c92947be8f68c408f4416c9a2c03e1
+      internalID: 677100593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 1740
+        width: 784
+        height: 655
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96c17292cc461c4fb020c59ae6449a2
+      internalID: 1910682448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 887
+        width: 894
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2bdcc7d7d69574e993e57d163def45
+      internalID: 2021453319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 866
+        width: 934
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e941851819f46438231ad34c550842
+      internalID: -1730844268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 866
+        width: 961
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e154c4b482ed3eb4a9b69f2bdcc39af1
+      internalID: -1263002095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 866
+        width: 963
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb4383378e2be7408e66f49bafa2f10
+      internalID: 830051868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 865
+        width: 960
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6037c2c2858994f98babd81ad3835b
+      internalID: 1492103952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 19
+        width: 960
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af906f39598d5594a9372d75d387f45c
+      internalID: -1387575344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esbirro agua muerte_0000-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 0
+        width: 960
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29b7befb0c2f9f4389d242d68aa70e1
+      internalID: -1237018679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Esbirro agua muerte_0000-sheet_0: -1267848194
+      Esbirro agua muerte_0000-sheet_1: -723605981
+      Esbirro agua muerte_0000-sheet_10: 2021453319
+      Esbirro agua muerte_0000-sheet_11: -1730844268
+      Esbirro agua muerte_0000-sheet_12: -1263002095
+      Esbirro agua muerte_0000-sheet_13: 830051868
+      Esbirro agua muerte_0000-sheet_14: 1492103952
+      Esbirro agua muerte_0000-sheet_15: -1387575344
+      Esbirro agua muerte_0000-sheet_16: -1237018679
+      Esbirro agua muerte_0000-sheet_17: -1095035001
+      Esbirro agua muerte_0000-sheet_18: 1366951035
+      Esbirro agua muerte_0000-sheet_19: -1935122450
+      Esbirro agua muerte_0000-sheet_2: 1565074550
+      Esbirro agua muerte_0000-sheet_20: -643817143
+      Esbirro agua muerte_0000-sheet_21: 316249948
+      Esbirro agua muerte_0000-sheet_22: -1606160391
+      Esbirro agua muerte_0000-sheet_23: -626305137
+      Esbirro agua muerte_0000-sheet_24: 1312415065
+      Esbirro agua muerte_0000-sheet_26: 1954523954
+      Esbirro agua muerte_0000-sheet_27: -1324767177
+      Esbirro agua muerte_0000-sheet_3: 456407515
+      Esbirro agua muerte_0000-sheet_4: -1176202303
+      Esbirro agua muerte_0000-sheet_5: -1947439130
+      Esbirro agua muerte_0000-sheet_6: 1334198561
+      Esbirro agua muerte_0000-sheet_7: 309088321
+      Esbirro agua muerte_0000-sheet_8: 677100593
+      Esbirro agua muerte_0000-sheet_9: 1910682448
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: c1818560592041447a50cb42b8c8c873
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 687
+        width: 77
+        height: 66
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0317f3c38a1b2b14cb872045536f93c6
+      internalID: -808010943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 74
+        width: 265
+        height: 679
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5e0a14e10a4e845816dcad2de673a2
+      internalID: 971635169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 665
+        width: 69
+        height: 88
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edeffbc16401f0048a9a48e381f6a6a5
+      internalID: -945416048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 598
+        width: 99
+        height: 153
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66ef322f1034844e8a274aeeca39e85
+      internalID: 1889622309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 445
+        width: 126
+        height: 308
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57faf0693f953847b5db3247f39a63e
+      internalID: 1218377987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 290
+        width: 180
+        height: 463
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdef0f31d181eb841855f16a9ca14ab9
+      internalID: 751122626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 235
+        width: 173
+        height: 518
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f9fed3196225449aa92f1d8e482ce1
+      internalID: 1904776600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 251
+        width: 120
+        height: 502
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf745cd5d6b81a4ba5b87a69185f5a8
+      internalID: 1860494233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 529
+        width: 136
+        height: 224
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798550d3231ebec4f85517ce5ffc6525
+      internalID: 1665951031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 306
+        width: 175
+        height: 447
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d597caa7ec7f64986178b271df7221
+      internalID: -546100497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 0
+        width: 241
+        height: 753
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0fb751f85656d408633afbef709fcd
+      internalID: -433874095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 28
+        width: 181
+        height: 723
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc8daa6c9259a8468b6ebce038d4745
+      internalID: 524873660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 492
+        width: 263
+        height: 261
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14379850865c85448b3e4117972f48e
+      internalID: -1252450091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 211
+        width: 511
+        height: 542
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b02530876e11848baffaae1848b5c6
+      internalID: -1763172091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4508
+        y: 244
+        width: 517
+        height: 509
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe70db412436d4c4e855c86f1b65d95e
+      internalID: -1253080522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5058
+        y: 369
+        width: 311
+        height: 384
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8e7af91d97d6542975b4fcb41b3de1
+      internalID: 234774068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 84
+        width: 798
+        height: 669
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bb248e64dfbe641a2f67e177187d60
+      internalID: -1904215102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ultimate_sobrecarga-1-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 123
+        width: 566
+        height: 630
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27d5585ad3bda141bfcead44c4249ff
+      internalID: -1379531379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Efecto_ultimate_sobrecarga-1-sheet_: -945416048
+      Efecto_ultimate_sobrecarga-1-sheet_0: -808010943
+      Efecto_ultimate_sobrecarga-1-sheet_10: -433874095
+      Efecto_ultimate_sobrecarga-1-sheet_11: 524873660
+      Efecto_ultimate_sobrecarga-1-sheet_12: -1252450091
+      Efecto_ultimate_sobrecarga-1-sheet_13: -1763172091
+      Efecto_ultimate_sobrecarga-1-sheet_14: -1904215102
+      Efecto_ultimate_sobrecarga-1-sheet_15: -1379531379
+      Efecto_ultimate_sobrecarga-1-sheet_16: -1253080522
+      Efecto_ultimate_sobrecarga-1-sheet_17: 234774068
+      Efecto_ultimate_sobrecarga-1-sheet_18: -1531190524
+      Efecto_ultimate_sobrecarga-1-sheet_2: 1889622309
+      Efecto_ultimate_sobrecarga-1-sheet_20: -1903741624
+      Efecto_ultimate_sobrecarga-1-sheet_21: -428239254
+      Efecto_ultimate_sobrecarga-1-sheet_22: -85078327
+      Efecto_ultimate_sobrecarga-1-sheet_23: 457763636
+      Efecto_ultimate_sobrecarga-1-sheet_25: 1874306556
+      Efecto_ultimate_sobrecarga-1-sheet_26: 1799798702
+      Efecto_ultimate_sobrecarga-1-sheet_28: -2031313411
+      Efecto_ultimate_sobrecarga-1-sheet_29: -1366513725
+      Efecto_ultimate_sobrecarga-1-sheet_3: 1218377987
+      Efecto_ultimate_sobrecarga-1-sheet_30: 457807225
+      Efecto_ultimate_sobrecarga-1-sheet_31: -1271819404
+      Efecto_ultimate_sobrecarga-1-sheet_32: -589827824
+      Efecto_ultimate_sobrecarga-1-sheet_33: -1431138834
+      Efecto_ultimate_sobrecarga-1-sheet_34: -154476324
+      Efecto_ultimate_sobrecarga-1-sheet_35: 439942458
+      Efecto_ultimate_sobrecarga-1-sheet_36: -639027012
+      Efecto_ultimate_sobrecarga-1-sheet_37: 1212420616
+      Efecto_ultimate_sobrecarga-1-sheet_38: 636721745
+      Efecto_ultimate_sobrecarga-1-sheet_39: 494468622
+      Efecto_ultimate_sobrecarga-1-sheet_4: 751122626
+      Efecto_ultimate_sobrecarga-1-sheet_40: -387947726
+      Efecto_ultimate_sobrecarga-1-sheet_41: -1320850555
+      Efecto_ultimate_sobrecarga-1-sheet_42: -447841897
+      Efecto_ultimate_sobrecarga-1-sheet_43: -803861042
+      Efecto_ultimate_sobrecarga-1-sheet_44: -1163471607
+      Efecto_ultimate_sobrecarga-1-sheet_45: 1607701844
+      Efecto_ultimate_sobrecarga-1-sheet_46: 287649250
+      Efecto_ultimate_sobrecarga-1-sheet_47: 573939522
+      Efecto_ultimate_sobrecarga-1-sheet_48: -12294347
+      Efecto_ultimate_sobrecarga-1-sheet_49: -930607859
+      Efecto_ultimate_sobrecarga-1-sheet_5: 1904776600
+      Efecto_ultimate_sobrecarga-1-sheet_50: 1577352290
+      Efecto_ultimate_sobrecarga-1-sheet_51: 347495659
+      Efecto_ultimate_sobrecarga-1-sheet_52: -1013716338
+      Efecto_ultimate_sobrecarga-1-sheet_53: -1629130408
+      Efecto_ultimate_sobrecarga-1-sheet_54: -1974563855
+      Efecto_ultimate_sobrecarga-1-sheet_55: 1547292685
+      Efecto_ultimate_sobrecarga-1-sheet_56: 159179094
+      Efecto_ultimate_sobrecarga-1-sheet_6: 1860494233
+      Efecto_ultimate_sobrecarga-1-sheet_7: 1665951031
+      Efecto_ultimate_sobrecarga-1-sheet_8: -546100497
+      Efecto_ultimate_sobrecarga-1-sheet_9: 971635169
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

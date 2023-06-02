@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 0876e5f91f2b4b3418ef43ab0a267202
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7112
+        width: 331
+        height: 151
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cbe00e57ac12d44ab06c4e79a117c3
+      internalID: 726244651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6388
+        width: 529
+        height: 400
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432296082b72e5e4c8a60b426018a633
+      internalID: -1891144084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5668
+        width: 900
+        height: 556
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2507913c892048644b455501231e9c88
+      internalID: 1522563732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4972
+        width: 1285
+        height: 624
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61197ec1b943c7499da5bd1fb9de746
+      internalID: -265083412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 4343
+        width: 1316
+        height: 625
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74e492fd8a1d754d84a29cd867428c1
+      internalID: -1835258456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 3704
+        width: 1170
+        height: 468
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f6f8a85ffe3e4a81626ba26a10374
+      internalID: -1060175194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2984
+        width: 873
+        height: 449
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7946268bd30562e48b5563d60df11e7d
+      internalID: -678013506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2264
+        width: 700
+        height: 350
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4135fd8340d14346a1f3a1d4a7511cd
+      internalID: 1407301392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1647
+        width: 533
+        height: 235
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d22ba162151c54ab2e4da771e1b825
+      internalID: 1132350568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 968
+        width: 396
+        height: 187
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850b7ce797cfc564e909c9a5b758acb0
+      internalID: 735312652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_intermedia_aire-1-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 322
+        width: 160
+        height: 118
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa6eed4a22860f4e953e5323a3570d1
+      internalID: 1158473423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Efecto_ataque_intermedia_aire-1-sheet_0: 726244651
+      Efecto_ataque_intermedia_aire-1-sheet_1: -1891144084
+      Efecto_ataque_intermedia_aire-1-sheet_10: 735312652
+      Efecto_ataque_intermedia_aire-1-sheet_2: 1522563732
+      Efecto_ataque_intermedia_aire-1-sheet_3: -265083412
+      Efecto_ataque_intermedia_aire-1-sheet_4: -1835258456
+      Efecto_ataque_intermedia_aire-1-sheet_5: -1060175194
+      Efecto_ataque_intermedia_aire-1-sheet_6: -678013506
+      Efecto_ataque_intermedia_aire-1-sheet_7: 1407301392
+      Efecto_ataque_intermedia_aire-1-sheet_8: 1132350568
+      Efecto_ataque_intermedia_aire-1-sheet_9: 735312652
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

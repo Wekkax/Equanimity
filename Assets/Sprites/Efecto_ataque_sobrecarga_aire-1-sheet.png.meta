@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 87208b0d7ebe48349a3984ef3ec3f3a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7112
+        width: 331
+        height: 151
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d433ebc2632d4b4692334a1a18bf632
+      internalID: -1791733572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6388
+        width: 529
+        height: 400
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93393b2c59f3e0443ba768f3dc21ed72
+      internalID: 81691626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5668
+        width: 900
+        height: 556
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b07c1c8fe1f2f4ea07c4d04a191a1b
+      internalID: -1302954426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4972
+        width: 1282
+        height: 618
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12efd492f78ca44ac999c92d9bc4de
+      internalID: 2064201315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 4343
+        width: 1316
+        height: 625
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f9ef985b9ca545860a4f39c3b5ba8
+      internalID: 690308286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 3704
+        width: 1170
+        height: 468
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b64a0948e2d434abe410c8178983b1
+      internalID: -1867181123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2984
+        width: 873
+        height: 449
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eb6517a30f7d24e9c6778fbd00d752
+      internalID: 1196439294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2264
+        width: 700
+        height: 350
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25859e3c6d305604f8924d6e8a0b46d2
+      internalID: -647135665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1647
+        width: 533
+        height: 235
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0dec61a6c0c8d49b652e47a7e6dfcd
+      internalID: -1032620132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 965
+        width: 396
+        height: 187
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f692111203f430439358be27fdd9840
+      internalID: 1107989465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Efecto_ataque_sobrecarga_aire-1-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 322
+        width: 160
+        height: 118
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fe0ae4cb321d042970c813a6fdb59c
+      internalID: -1764521415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Efecto_ataque_sobrecarga_aire-1-sheet_0: -1791733572
+      Efecto_ataque_sobrecarga_aire-1-sheet_1: 81691626
+      Efecto_ataque_sobrecarga_aire-1-sheet_10: -1764521415
+      Efecto_ataque_sobrecarga_aire-1-sheet_2: -1302954426
+      Efecto_ataque_sobrecarga_aire-1-sheet_3: 2064201315
+      Efecto_ataque_sobrecarga_aire-1-sheet_4: 690308286
+      Efecto_ataque_sobrecarga_aire-1-sheet_5: -1867181123
+      Efecto_ataque_sobrecarga_aire-1-sheet_6: 1196439294
+      Efecto_ataque_sobrecarga_aire-1-sheet_7: -647135665
+      Efecto_ataque_sobrecarga_aire-1-sheet_8: -1032620132
+      Efecto_ataque_sobrecarga_aire-1-sheet_9: 1107989465
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
