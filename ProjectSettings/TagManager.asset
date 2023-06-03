@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Ground
   - 
   - 
   - 
@@ -38,6 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 2137363753
+    locked: 0
+  - name: World
+    uniqueID: 3307344395
+    locked: 0
+  - name: Player
+    uniqueID: 2952684173
+    locked: 0
+  - name: Primerplano
+    uniqueID: 937649633
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
