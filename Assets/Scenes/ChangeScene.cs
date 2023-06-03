@@ -24,7 +24,7 @@ public class ChangeScene : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
 
     {
-        if(collision.gameObject.tag == "camera")
+        if(collision.gameObject.tag == "Player")
         {
             StartCoroutine(_ChangeScene());
         }
