@@ -7,12 +7,15 @@ public class KN : MonoBehaviour
     Animator animator;
     Rigidbody2D rigidBody2D;
     CapsuleCollider2D collider;
+
+    public AudioSource pasos;
     // Start is called before the first frame update
     void Start()
     {
         collider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
+        pasos = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -45,7 +48,7 @@ public class KN : MonoBehaviour
 
         if (Input.GetKey("space") && animator.GetBool("Grounded") && !animator.GetBool("Salta?") && (animator.GetBool("Transformación intermedia?") || animator.GetBool("Sobrecarga?"))) {
 
-            rigidBody2D.AddForce(transform.up*0.1f);
+            rigidBody2D.AddForce(transform.up*0.04f);
             animator.SetBool("Salta?", true);
             animator.SetBool("Grounded", false);
         
@@ -62,6 +65,15 @@ public class KN : MonoBehaviour
         }
 
 
+
+        ////////////////////////////////////////////////////////////////////////////////////Sonido
+
+        if (animator.GetBool("Corriendo?")){
+            animator.SetBool("Corriendo?", true);
+            pasos.Play();
+        }else{
+            pasos.Pause();
+        }
 }
 
 void OnCollisionEnter2D(Collision2D col){
@@ -71,6 +83,8 @@ void OnCollisionEnter2D(Collision2D col){
     }
         
 }
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////FALLOS
