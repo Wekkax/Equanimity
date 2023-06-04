@@ -29,7 +29,7 @@ public class Ataques : MonoBehaviour
     void Update()
     {
         ////////////////////////////////////////////////////////////////Intermedia
-        if ((Input.GetMouseButtonDown(0)) && !(animator.GetBool("Sobrecarga?")) && !atacando){
+        if ((Input.GetMouseButtonDown(0)) && (animator.GetBool("Transformación intermedia?") && !(animator.GetBool("Sobrecarga?"))) && !atacando){
 
             pepo = Instantiate(proyectil1, pposition.position + new Vector3 (0,0,-0.1f), pposition.rotation);
             animator.SetBool("Ataca?", true);

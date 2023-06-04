@@ -6,9 +6,11 @@ public class KN : MonoBehaviour
 {
     Animator animator;
     Rigidbody2D rigidBody2D;
+    CapsuleCollider2D collider;
     // Start is called before the first frame update
     void Start()
     {
+        collider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
@@ -43,7 +45,7 @@ public class KN : MonoBehaviour
 
         if (Input.GetKey("space") && animator.GetBool("Grounded") && !animator.GetBool("Salta?") && (animator.GetBool("Transformación intermedia?") || animator.GetBool("Sobrecarga?"))) {
 
-            rigidBody2D.AddForce(transform.up*900);
+            rigidBody2D.AddForce(transform.up*0.1f);
             animator.SetBool("Salta?", true);
             animator.SetBool("Grounded", false);
         
@@ -61,12 +63,37 @@ public class KN : MonoBehaviour
 
 
 }
+
+void OnCollisionEnter2D(Collision2D col){
+    if(col.collider.tag == "Ground"){
+        animator.SetBool("Grounded", true);
+        animator.SetBool("Salta?", false);
+    }
+        
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////FALLOS
+/*void FixedUpdate(){
+    RaycastHit2D hit;
+    hit = Physics2D.CapsuleCast(collider.bounds.center,collider.size,collider.direction,collider.transform.localRotation.z,new Vector2(0,-1f),Mathf.Epsilon);
+    if(hit.collider.tag == "Ground"){
+            animator.SetBool("Grounded", true);
+            animator.SetBool("Salta?", false);
+            Debug.Log(hit.collider.gameObject.name);
+    }else{
+            animator.SetBool("Grounded", false);
+            Debug.Log("Not Grounded");
+    }
+    
+}*/
 /////////////////////////////////////////////////////////////////////////////
-    void OnTriggerStay2D(Collider2D other)
+    /*void OnTriggerStay2D(Collider2D other)
     {
 
         if (other.gameObject.tag == "Ground")
         {
+            Debug.Log("Loquesea");
             animator.SetBool("Grounded", true);
             animator.SetBool("Salta?", false);
         }
@@ -75,6 +102,6 @@ public class KN : MonoBehaviour
             animator.SetBool("Grounded", false);
             Debug.Log("Not Grounded");
         }
-    }
+    }*/
 
 }
