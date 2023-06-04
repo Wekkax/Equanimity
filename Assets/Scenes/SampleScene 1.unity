@@ -4001,6 +4001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pasos: {fileID: 671188804}
+  kke: {fileID: 8300000, guid: 06d55219ac700c34ebd6dce2364bd6fa, type: 3}
 --- !u!50 &671188801
 Rigidbody2D:
   serializedVersion: 4

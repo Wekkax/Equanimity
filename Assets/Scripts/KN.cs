@@ -7,8 +7,10 @@ public class KN : MonoBehaviour
     Animator animator;
     Rigidbody2D rigidBody2D;
     CapsuleCollider2D collider;
+    float caetime;
 
     public AudioSource pasos;
+    public AudioClip kke;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,21 +58,30 @@ public class KN : MonoBehaviour
         
 
         if (rigidBody2D.velocity.y < 0) {
-
-            animator.SetBool("Cae?", true);
+            
+            if(caetime == -1){
+                caetime = Time.time;
+            }else{
+                if(Time.time - caetime > 0.1f){
+                    animator.SetBool("Cae?", true);
+                    animator.SetBool("Grounded", false);   
+            }
+            }
+            
         }
         else
         {
             animator.SetBool("Cae?", false);
+            animator.SetBool("Grounded", true);
+            caetime = -1;
         }
-
 
 
         ////////////////////////////////////////////////////////////////////////////////////Sonido
 
         if (animator.GetBool("Corriendo?")){
             animator.SetBool("Corriendo?", true);
-            pasos.Play();
+            pasos.Play(kke, 0.7f);
             Debug.Log("Musicote?");
         }else{
             pasos.Pause();
