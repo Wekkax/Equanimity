@@ -71,6 +71,7 @@ public class KN : MonoBehaviour
         if (animator.GetBool("Corriendo?")){
             animator.SetBool("Corriendo?", true);
             pasos.Play();
+            Debug.Log("Musicote?");
         }else{
             pasos.Pause();
         }
