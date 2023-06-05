@@ -16,6 +16,7 @@ public class Ataques : MonoBehaviour
     public GameObject proyectil1;
     public GameObject proyectil2;
     public GameObject proyectil3;
+    public AudioSource ulti;
 
     // Start is called before the first frame update
     void Start()
@@ -76,5 +77,19 @@ public class Ataques : MonoBehaviour
         if (!atacando && !ulteando){
             animator.SetBool("Ataca?", false);
         }
+
+        /////////////////////////////////////////////////////Sonido Ulti
+
+        if (animator.GetBool("Ataca?") && Input.GetKey("r") && animator.GetBool("Sobrecarga?")){
+            animator.SetBool("Ataca?", true);
+
+            if(!ulti.isPlaying){
+                ulti.Play();
+            }
+        }else{
+            ulti.Stop();
+        }
+
+        
     }
 }

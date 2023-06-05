@@ -11,14 +11,13 @@ public class KN : MonoBehaviour
 
     public AudioSource pasos;
     public AudioSource ataque;
+    public AudioSource trans;
     // Start is called before the first frame update
     void Start()
     {
         collider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
-        pasos = GetComponent<AudioSource>();
-        ataque = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -90,18 +89,31 @@ public class KN : MonoBehaviour
             pasos.Pause();
         }
 
-        /*if (animator.GetBool("Ataca?")){
+        if (animator.GetBool("Ataca?")){
             animator.SetBool("Ataca?", true);
 
             if(!ataque.isPlaying){
                 ataque.Play();
             }
         }else{
-            ataque.Pause();
+            ataque.Stop();
         }
 
+        /*if (animator.GetBool("Sobrecarga?") || animator.GetBool("Elige vuelta a intermedia")){
+            animator.SetBool("Sobrecarga?", true);
+            animator.SetBool("Elige vuelta a intermedia", true);
+
+            if(!trans.isPlaying){
+                trans.Play();
+            }
+        }else{
+            trans.Stop();
         }*/
-}
+
+
+
+        }
+
 
 void OnCollisionEnter2D(Collision2D col){
     if(col.collider.tag == "Ground"){
