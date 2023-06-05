@@ -10,6 +10,7 @@ public class KN : MonoBehaviour
     float caetime;
 
     public AudioSource pasos;
+    public AudioSource ataque;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class KN : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
         pasos = GetComponent<AudioSource>();
+        ataque = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -78,7 +80,7 @@ public class KN : MonoBehaviour
 
         ////////////////////////////////////////////////////////////////////////////////////Sonido
 
-        if (animator.GetBool("Corriendo?")){
+        if (animator.GetBool("Corriendo?") && !animator.GetBool("Sobrecarga?") && !animator.GetBool("Salta?") && !animator.GetBool("Cae?")){
             animator.SetBool("Corriendo?", true);
             
             if(!pasos.isPlaying){
@@ -87,6 +89,18 @@ public class KN : MonoBehaviour
         }else{
             pasos.Pause();
         }
+
+        /*if (animator.GetBool("Ataca?")){
+            animator.SetBool("Ataca?", true);
+
+            if(!ataque.isPlaying){
+                ataque.Play();
+            }
+        }else{
+            ataque.Pause();
+        }
+
+        }*/
 }
 
 void OnCollisionEnter2D(Collision2D col){
@@ -95,6 +109,7 @@ void OnCollisionEnter2D(Collision2D col){
         animator.SetBool("Salta?", false);
     }
         
+}
 }
 
 
@@ -131,4 +146,4 @@ void OnCollisionEnter2D(Collision2D col){
         }
     }*/
 
-}
+
