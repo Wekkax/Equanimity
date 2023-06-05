@@ -51,7 +51,7 @@ public class KN : MonoBehaviour
 
         if (Input.GetKey("space") && animator.GetBool("Grounded") && !animator.GetBool("Salta?") && (animator.GetBool("Transformación intermedia?") || animator.GetBool("Sobrecarga?"))) {
 
-            rigidBody2D.AddForce(transform.up*0.04f);
+            rigidBody2D.AddForce(transform.up*0.12f);
             animator.SetBool("Salta?", true);
             animator.SetBool("Grounded", false);
         
