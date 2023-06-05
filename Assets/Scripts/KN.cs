@@ -10,7 +10,6 @@ public class KN : MonoBehaviour
     float caetime;
 
     public AudioSource pasos;
-    public AudioClip kke;
     // Start is called before the first frame update
     void Start()
     {
@@ -81,8 +80,10 @@ public class KN : MonoBehaviour
 
         if (animator.GetBool("Corriendo?")){
             animator.SetBool("Corriendo?", true);
-            pasos.Play(kke, 0.7f);
-            Debug.Log("Musicote?");
+            
+            if(!pasos.isPlaying){
+                pasos.Play();
+            }
         }else{
             pasos.Pause();
         }

@@ -4001,7 +4001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pasos: {fileID: 671188804}
-  kke: {fileID: 8300000, guid: 06d55219ac700c34ebd6dce2364bd6fa, type: 3}
 --- !u!50 &671188801
 Rigidbody2D:
   serializedVersion: 4
@@ -4065,16 +4064,16 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 06d55219ac700c34ebd6dce2364bd6fa, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ca49ec96dbcaf2b45b7f8b36cbd78981, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 0.61
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
