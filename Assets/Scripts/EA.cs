@@ -9,6 +9,7 @@ public class EA : MonoBehaviour {
     int mm;
     float timerataque;
     Animator animator;
+    CapsuleCollider2D col;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class EA : MonoBehaviour {
         timerataque = Time.time;
         Startpos = transform.position;
         animator = GetComponent<Animator>();
+        col = GetComponent<CapsuleCollider2D>();
     }
 
     // Update is called once per frame
@@ -65,5 +67,9 @@ public class EA : MonoBehaviour {
         transform.localRotation = characterRotation;
         mm = 0;
        }
+
+       /*if(col.GameObject.tag == "Balaka"){
+        animator.SetBool("Muere?", true);
+       }*/
     }
 }
