@@ -29,6 +29,11 @@ public class EnemyManage : MonoBehaviour
                 enemyhealth -= 50;
                 
                 break;
+            /////
+                case "Balakokote":
+                enemyhealth -= 80;
+
+                break;
             }
             
             if(enemyhealth <= 0){

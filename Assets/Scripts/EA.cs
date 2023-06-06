@@ -8,6 +8,7 @@ public class EA : MonoBehaviour {
     int contador;
     int mm;
     float timerataque;
+    bool haso;
     Animator animator;
     CapsuleCollider2D col;
 
@@ -22,16 +23,15 @@ public class EA : MonoBehaviour {
         Startpos = transform.position;
         animator = GetComponent<Animator>();
         col = GetComponent<CapsuleCollider2D>();
+        haso = false;
     }
 
     // Update is called once per frame
     void Update()
     {
        //transform.Translate(Input.GetAxis("Horizontal")* 15f * Time.deltaTime, 0f, 0f); 
-       if(animator.GetBool("Muere?")){
-        return;
-       }
-       if (Time.time - p >= 0.25f){
+       if(!animator.GetBool("Muere?")){
+        if (Time.time - p >= 0.25f){
         if(contador != 2){
             float inter = (Time.time - p - 0.25f)/1.625f;
             transform.position = Vector2.Lerp(Startpos, Startpos + (Vector2)transform.right * -3, inter);
@@ -76,18 +76,18 @@ public class EA : MonoBehaviour {
 
        //////////////////////////////////////////////////Sonido
 
-       if (animator.GetBool("Muere?")){
-            animator.SetBool("Muere?", true);
+        /*if (animator.GetBool("Muere?")){
+            Debug.Log("suena esto?");
 
             if(!cmuere.isPlaying){
                 cmuere.Play();
             }
         }else{
-            cmuere.Stop();
-        }
+                cmuere.Stop();
+                Debug.Log("y esto?");
+        }*/
 
         if (animator.GetBool("Ataca?")){
-            animator.SetBool("Ataca?", true);
 
             if(!ataca.isPlaying){
                 ataca.Play();
@@ -95,5 +95,12 @@ public class EA : MonoBehaviour {
         }else{
             ataca.Stop();
         }
+       }else{
+        if(!haso){
+            cmuere.Play();
+            haso = true;
+                }
+       }
+       
     }
 }
