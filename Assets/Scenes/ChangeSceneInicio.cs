@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ChangeSceneInicio : MonoBehaviour
 {
     
-    public Vector3 desiredPosition = new Vector3(147.7f, -49.2f, 0f);
+   // public Vector3 desiredPosition = new Vector3(147.7f, -49.2f, 0f);
 
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class ChangeSceneInicio : MonoBehaviour
             //cambio de escena
             SceneManager.LoadScene("SampleScene 1");
 
-          transform.position = desiredPosition;
+          //transform.position = desiredPosition;
            
         //transform.position = new Vector3(147.7f, -49.2f, 0f);
                  }
