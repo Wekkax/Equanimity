@@ -1270,7 +1270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dd607468cf395f4ea90846895d4ade8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  desiredPosition: {x: 147.7, y: -49.2, z: 0}
 --- !u!4 &373172097
 Transform:
   m_ObjectHideFlags: 0
@@ -2755,6 +2754,7 @@ GameObject:
   - component: {fileID: 563115798}
   - component: {fileID: 563115797}
   - component: {fileID: 563115796}
+  - component: {fileID: 563115799}
   m_Layer: 0
   m_Name: Efecto_ataque_intermedia_aire-1-sheet_0
   m_TagString: Balaka
@@ -2843,13 +2843,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563115795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.1, y: 20.4, z: 0}
+  m_LocalPosition: {x: -3.5, y: 55.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &563115799
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563115795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.3, y: 0}
+  m_Size: {x: 10.75, y: 1.32}
+  m_Direction: 1
 --- !u!1 &590568302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,7 +3340,6 @@ MonoBehaviour:
   proyectil2: {fileID: 689185633}
   proyectil3: {fileID: 1637554034}
   ulti: {fileID: 671188806}
-  damageRef: 50
 --- !u!82 &671188804
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7670,6 +7685,7 @@ GameObject:
   - component: {fileID: 1626007430}
   - component: {fileID: 1626007435}
   - component: {fileID: 1626007434}
+  - component: {fileID: 1626007436}
   m_Layer: 0
   m_Name: Esbirro agua SS_0 (1)
   m_TagString: Untagged
@@ -7790,10 +7806,24 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4.09}
-  m_Size: {x: 8.24, y: 8.179998}
+  m_Offset: {x: -0.55, y: 4.09}
+  m_Size: {x: 6.42, y: 8.26}
   m_Direction: 0
---- !u!50 &1626007435
+--- !u!114 &1626007435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626007429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb6f4653a16520439690e8dfd96c313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyhealth: 150
+  timeded: 0.6
+--- !u!50 &1626007436
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -7801,7 +7831,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626007429}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

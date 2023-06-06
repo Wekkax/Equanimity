@@ -18,17 +18,12 @@ public class Ataques : MonoBehaviour
     public GameObject proyectil3;
     public AudioSource ulti;
 
-    public static int damage;
-    public int damageRef = 50;
-
     // Start is called before the first frame update
     void Start()
     {
         t = Time.time;
         animator = GetComponent<Animator>();
         atacando = false;
-
-        damage = damageRef;
     }
 
     // Update is called once per frame

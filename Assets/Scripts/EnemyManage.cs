@@ -17,13 +17,28 @@ public class EnemyManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        void OnTriggerenter2D(Collider2D col){
-            if(col.tag == "Balaka"){
+        
+    }
+
+    void OnTriggerEnter2D(Collider2D col){
+            Debug.Log("kk");
+            switch(col.tag){
+                case "Balaka": 
+                enemyhealth -= 50;
+                
+                break;
+            }
+            
+            if(enemyhealth <= 0){
+                animator.SetBool("Muere?", true);
+                }
+            
+            
+            /*if(col.tag == "Balaka"){
                 //enemyhealth -= Instantiate.damage;
                 if(enemyhealth <= 0){
                     animator.SetBool("Muere?", true);
                 }
-            }
-        }
-    }
+            }*/
+    }    
 }

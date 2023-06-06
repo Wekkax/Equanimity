@@ -25,6 +25,9 @@ public class EA : MonoBehaviour {
     void Update()
     {
        //transform.Translate(Input.GetAxis("Horizontal")* 15f * Time.deltaTime, 0f, 0f); 
+       if(animator.GetBool("Muere?")){
+        return;
+       }
        if (Time.time - p >= 0.25f){
         if(contador != 2){
             float inter = (Time.time - p - 0.25f)/1.625f;
