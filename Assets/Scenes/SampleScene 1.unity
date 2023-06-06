@@ -5756,9 +5756,12 @@ Transform:
   m_GameObject: {fileID: 563115795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -47.1, y: 92.82114, z: 0}
   m_LocalScale: {x: 0.7268023, y: 0.7268023, z: 0.7268023}
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_LocalPosition: {x: -3.5, y: 55.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
@@ -5768,8 +5771,11 @@ Transform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &588906884
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 --- !u!70 &563115799
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6173,9 +6179,12 @@ Transform:
   m_GameObject: {fileID: 671188796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -8.944229, y: 60.69757, z: 0}
   m_LocalScale: {x: 0.1575905, y: 0.16588475, z: 0.16588475}
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_LocalPosition: {x: 5.21, y: -9.47, z: 0}
   m_LocalScale: {x: 0.21682718, y: 0.22823915, z: 0.22823915}
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
@@ -13487,7 +13496,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1568613771
+=======
+--- !u!1 &1626007429
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 =======
 --- !u!1 &1626007429
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
@@ -13499,11 +13512,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1568613772}
   - component: {fileID: 1568613773}
   m_Layer: 0
   m_Name: pilar_01 (9)
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   - component: {fileID: 1626007433}
   - component: {fileID: 1626007432}
   - component: {fileID: 1626007431}
@@ -13513,6 +13529,9 @@ GameObject:
   - component: {fileID: 1626007436}
   m_Layer: 0
   m_Name: Esbirro agua SS_0 (1)
+<<<<<<< HEAD
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
+=======
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13520,8 +13539,13 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1568613772
 Transform:
+=======
+--- !u!114 &1626007430
+MonoBehaviour:
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 =======
 --- !u!114 &1626007430
 MonoBehaviour:
@@ -13530,6 +13554,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1568613771}
   m_LocalRotation: {x: -0, y: -0, z: 0.999992, w: -0.004016009}
@@ -13542,6 +13567,8 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.54}
 --- !u!212 &1568613773
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_GameObject: {fileID: 1626007429}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13570,6 +13597,9 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1626007432
+<<<<<<< HEAD
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
+=======
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13577,7 +13607,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1568613771}
+=======
+  m_GameObject: {fileID: 1626007429}
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 =======
   m_GameObject: {fileID: 1626007429}
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
@@ -13613,22 +13647,32 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingLayerID: -987622901
   m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ab1d35fa31fb7644ea8ba1ecaa8b6b63, type: 3}
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1322146164, guid: ec072062655bd0a478d28fa1187d7366, type: 3}
+<<<<<<< HEAD
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
+=======
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 38.399998, y: 21.599998}
+=======
+  m_Size: {x: 8.18094, y: 8.179999}
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 =======
   m_Size: {x: 8.18094, y: 8.179999}
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
@@ -13637,6 +13681,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1587761165
 GameObject:
@@ -13658,11 +13703,15 @@ GameObject:
 =======
 --- !u!4 &1626007433
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
+=======
+--- !u!4 &1626007433
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1587761165}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -13714,6 +13763,8 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
   m_GameObject: {fileID: 1626007429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 24.24, y: -9.5, z: 0}
@@ -13774,6 +13825,9 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
+>>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
+=======
 >>>>>>> ede72f2e3083756566b8daac5d0381be017bab07
 --- !u!1 &1637554034
 GameObject:
