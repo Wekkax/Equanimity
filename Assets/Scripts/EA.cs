@@ -10,6 +10,9 @@ public class EA : MonoBehaviour {
     float timerataque;
     Animator animator;
     CapsuleCollider2D col;
+
+    public AudioSource ataca;
+    public AudioSource cmuere;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,8 +74,26 @@ public class EA : MonoBehaviour {
         mm = 0;
        }
 
-       /*if(col.GameObject.tag == "Balaka"){
-        animator.SetBool("Muere?", true);
-       }*/
+       //////////////////////////////////////////////////Sonido
+
+       if (animator.GetBool("Muere?")){
+            animator.SetBool("Muere?", true);
+
+            if(!cmuere.isPlaying){
+                cmuere.Play();
+            }
+        }else{
+            cmuere.Stop();
+        }
+
+        if (animator.GetBool("Ataca?")){
+            animator.SetBool("Ataca?", true);
+
+            if(!ataca.isPlaying){
+                ataca.Play();
+            }
+        }else{
+            ataca.Stop();
+        }
     }
 }

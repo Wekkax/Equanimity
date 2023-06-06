@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyManage : MonoBehaviour
 {
     Animator animator;
     public int enemyhealth = 150;
     public float timeded = 0.6f;
+    public AudioSource sufre;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +19,11 @@ public class EnemyManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     void OnTriggerEnter2D(Collider2D col){
-            Debug.Log("kk");
+        Debug.Log("Auch");
             switch(col.tag){
                 case "Balaka": 
                 enemyhealth -= 50;
@@ -33,12 +35,7 @@ public class EnemyManage : MonoBehaviour
                 animator.SetBool("Muere?", true);
                 }
             
-            
-            /*if(col.tag == "Balaka"){
-                //enemyhealth -= Instantiate.damage;
-                if(enemyhealth <= 0){
-                    animator.SetBool("Muere?", true);
-                }
-            }*/
+            //////////////Sonido
+                sufre.Play();
     }    
 }
