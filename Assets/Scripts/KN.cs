@@ -11,7 +11,8 @@ public class KN : MonoBehaviour
 
     public AudioSource pasos;
     public AudioSource ataque;
-    public AudioSource trans;
+    //public AudioSource trans;
+    public AudioSource salto;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class KN : MonoBehaviour
         if (Input.GetAxis("Horizontal") != 0f){
  
             animator.SetBool("Corriendo?", true);
-            transform.Translate(20f * Time.deltaTime, 0f, 0f); 
+            transform.Translate(17f * Time.deltaTime, 0f, 0f); 
         }else{
             animator.SetBool("Corriendo?", false);
         }
@@ -97,6 +98,17 @@ public class KN : MonoBehaviour
             }
         }else{
             ataque.Stop();
+        }
+
+
+        if (animator.GetBool("Salta?")){
+            animator.SetBool("Salta?", true);
+
+            if(!salto.isPlaying){
+                salto.Play();
+            }
+        }else{
+            salto.Stop();
         }
 
         /*if (animator.GetBool("Sobrecarga?") || animator.GetBool("Elige vuelta a intermedia")){
