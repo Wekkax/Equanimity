@@ -140,7 +140,7 @@ public class KN : MonoBehaviour
             }
         }
 
-    ////////////////////////////////////////////////////////////////////////////Transformación a intermedia
+        ////////////////////////////////////////////////////////////////////////////Transformación a intermedia
 
         if(Input.GetKey("e") && !transss){
             animator.SetBool("Transformación intermedia?", true);
@@ -148,40 +148,13 @@ public class KN : MonoBehaviour
             intert = Time.time;
         }
 
-    /////////////////////////////////////////////////////////////////////////////Transformación sobrecarga
+        /////////////////////////////////////////////////////////////////////////////Transformación sobrecarga
 
         if(Time.time - intert > 60f){
             animator.SetBool("Sobrecarga?", true);
         }
-    }
 
-    ////////////////////////////////////////////////////////////////////////////
-    void OnCollisionEnter2D(Collision2D col){
-        if(col.collider.tag == "Ground"){
-            animator.SetBool("Grounded", true);
-            animator.SetBool("Salta?", false);
-        }
-    } 
-
-    //////////////////////////////////////////////////////////////////////////Colliders
-    void OnTriggerStay2D(Collider2D colli){
-            
-            if(Time.time - sufretime > 1f){
-                switch(colli.tag){
-                case "Enemy": 
-                Khalihealth -= 50;
-                Debug.Log("Ayayaya");
-                queja.Play();
-                sufretime = Time.time;
-                break;
-            /////
-                //case "Balakokote":
-                //enemyhealth -= 80;
-
-                //break;
-            }
-            
-            if(Khalihealth <= 0){
+        if(Khalihealth <= 0){
                 Debug.Log("buuuu");
                 GameObject.Find("Blackout").GetComponent<Image>().color = new Color(0,0,0,255);
                 if(!muriendo){
@@ -196,6 +169,34 @@ public class KN : MonoBehaviour
                     Khalihealth = 150;
                     transform.position = new Vector2(5.21f, -9.47f);
                 }
+            }
+    }
+
+    ////////////////////////////////////////////////////////////////////////////
+    void OnCollisionEnter2D(Collision2D col){
+        if(col.collider.tag == "Ground"){
+            animator.SetBool("Grounded", true);
+            animator.SetBool("Salta?", false);
+        }
+    } 
+
+    //////////////////////////////////////////////////////////////////////////Colliders y muerte
+    void OnTriggerStay2D(Collider2D colli){
+            
+            if(Time.time - sufretime > 1f){
+                switch(colli.tag){
+                case "Enemy": 
+                Khalihealth -= 50;
+                Debug.Log("Ayayaya");
+                queja.Play();
+                sufretime = Time.time;
+                break;
+                /////
+                case "Duro":
+                Khalihealth -= 150;
+                Debug.Log("Ayayaya");
+                queja.Play();
+                break;
                 }
             }
     }
