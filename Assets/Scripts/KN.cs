@@ -253,6 +253,12 @@ public class KN : MonoBehaviour
     }
 
 
+    //////////////////////////////////////////////////////////////////////Entrada a Boss
+
+    /*void OnTriggerStay2D(Collider2D collu){
+        if()
+    }*/
+
 }
 
 

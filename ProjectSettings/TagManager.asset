@@ -9,6 +9,7 @@ TagManager:
   - Balakokote
   - Enemy
   - Duro
+  - Boss
   layers:
   - Default
   - TransparentFX
