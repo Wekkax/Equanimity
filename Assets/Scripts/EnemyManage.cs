@@ -7,7 +7,7 @@ public class EnemyManage : MonoBehaviour
 {
     Animator animator;
     public int enemyhealth = 150;
-    public float timeded = 0.6f;
+    //public float timeded = 0.6f;
     public AudioSource sufre;
 
     // Start is called before the first frame update

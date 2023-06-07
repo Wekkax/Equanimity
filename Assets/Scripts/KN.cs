@@ -9,11 +9,13 @@ public class KN : MonoBehaviour
     CapsuleCollider2D collider;
     float caetime;
     bool sonidot;
+    public int Khalihealth = 150;
 
     public AudioSource pasos;
     public AudioSource ataque;
     public AudioSource trans;
     public AudioSource salto;
+    public AudioSource queja;
     // Start is called before the first frame update
     void Start()
     {
@@ -129,17 +131,39 @@ public class KN : MonoBehaviour
             }
         }
 
-        }
-
-
-void OnCollisionEnter2D(Collision2D col){
-    if(col.collider.tag == "Ground"){
-        animator.SetBool("Grounded", true);
-        animator.SetBool("Salta?", false);
     }
-        
+
+
+    void OnCollisionEnter2D(Collision2D col){
+        if(col.collider.tag == "Ground"){
+            animator.SetBool("Grounded", true);
+            animator.SetBool("Salta?", false);
+        }
+    } 
+
+
+    /*void OnCollisionEnter2D(Collision2D colli){
+        Debug.Log("Ayayaya");
+            switch(colli.tag){
+                case "Enemy": 
+                Khalihealth -= 50;
+                
+                break;
+            /////
+                /*case "Balakokote":
+                enemyhealth -= 80;
+
+                break;
+            }
+            
+            if(Khalihealth <= 0){
+                Debug.Log("buuuu");
+                }
+            
+                queja.Play();
+    }*/
 }
-}
+
 
 
 
