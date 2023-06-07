@@ -6737,6 +6737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f92fd4577bf3a4fbef86368eb7a1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ultactivado: {fileID: 735660640, guid: cd88e4645d4616842a31677fd3ada9b8, type: 3}
+  ultdesactivado: {fileID: 8776817, guid: cd88e4645d4616842a31677fd3ada9b8, type: 3}
   pposition: {fileID: 698827293}
   proyectil1: {fileID: 563115795}
   proyectil2: {fileID: 689185633}

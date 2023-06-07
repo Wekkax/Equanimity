@@ -31,7 +31,7 @@ public class EnemyManage : MonoBehaviour
                 break;
             /////
                 case "Balakokote":
-                enemyhealth -= 80;
+                enemyhealth -= 150;
 
                 break;
             }

@@ -12,6 +12,7 @@ public class KN : MonoBehaviour
     bool sonidot;
     float sufretime;
     float blacktime;
+    float intert;
     bool muriendo;
     bool transss;
     public int Khalihealth = 150;
@@ -144,6 +145,13 @@ public class KN : MonoBehaviour
         if(Input.GetKey("e") && !transss){
             animator.SetBool("Transformación intermedia?", true);
             transss = true;
+            intert = Time.time;
+        }
+
+    /////////////////////////////////////////////////////////////////////////////Transformación sobrecarga
+
+        if(Time.time - intert > 60f){
+            animator.SetBool("Sobrecarga?", true);
         }
     }
 
