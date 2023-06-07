@@ -13,6 +13,7 @@ public class KN : MonoBehaviour
     float sufretime;
     float blacktime;
     bool muriendo;
+    bool transss;
     public int Khalihealth = 150;
 
     public AudioSource pasos;
@@ -27,6 +28,7 @@ public class KN : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
         sonidot = false;
+        transss = false;
         sufretime = Time.time;
         blacktime = Time.time;
     }
@@ -137,9 +139,15 @@ public class KN : MonoBehaviour
             }
         }
 
+    ////////////////////////////////////////////////////////////////////////////Transformación a intermedia
+
+        if(Input.GetKey("e") && !transss){
+            animator.SetBool("Transformación intermedia?", true);
+            transss = true;
+        }
     }
 
-
+    ////////////////////////////////////////////////////////////////////////////
     void OnCollisionEnter2D(Collision2D col){
         if(col.collider.tag == "Ground"){
             animator.SetBool("Grounded", true);
@@ -147,7 +155,7 @@ public class KN : MonoBehaviour
         }
     } 
 
-
+    //////////////////////////////////////////////////////////////////////////Colliders
     void OnTriggerStay2D(Collider2D colli){
             
             if(Time.time - sufretime > 1f){
