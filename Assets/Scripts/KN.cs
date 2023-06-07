@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KN : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class KN : MonoBehaviour
     CapsuleCollider2D collider;
     float caetime;
     bool sonidot;
+    float sufretime;
+    float blacktime;
+    float intert;
+    bool muriendo;
+    bool transss;
     public int Khalihealth = 150;
 
     public AudioSource pasos;
@@ -23,6 +29,9 @@ public class KN : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
         sonidot = false;
+        transss = false;
+        sufretime = Time.time;
+        blacktime = Time.time;
     }
 
     // Update is called once per frame
@@ -131,9 +140,39 @@ public class KN : MonoBehaviour
             }
         }
 
+        ////////////////////////////////////////////////////////////////////////////Transformación a intermedia
+
+        if(Input.GetKey("e") && !transss){
+            animator.SetBool("Transformación intermedia?", true);
+            transss = true;
+            intert = Time.time;
+        }
+
+        /////////////////////////////////////////////////////////////////////////////Transformación sobrecarga
+
+        if(Time.time - intert > 60f){
+            animator.SetBool("Sobrecarga?", true);
+        }
+
+        if(Khalihealth <= 0){
+                Debug.Log("buuuu");
+                GameObject.Find("Blackout").GetComponent<Image>().color = new Color(0,0,0,255);
+                if(!muriendo){
+                    muriendo = true;
+                    blacktime = Time.time;
+                    AudioListener.volume = 0;
+                }
+                if(Time.time - blacktime > 3f){
+                    GameObject.Find("Blackout").GetComponent<Image>().color = new Color(0,0,0,0);
+                    AudioListener.volume = 1;
+                    muriendo = false;
+                    Khalihealth = 150;
+                    transform.position = new Vector2(5.21f, -9.47f);
+                }
+            }
     }
 
-
+    ////////////////////////////////////////////////////////////////////////////
     void OnCollisionEnter2D(Collision2D col){
         if(col.collider.tag == "Ground"){
             animator.SetBool("Grounded", true);
@@ -141,27 +180,28 @@ public class KN : MonoBehaviour
         }
     } 
 
-
-    /*void OnCollisionEnter2D(Collision2D colli){
-        Debug.Log("Ayayaya");
-            switch(colli.tag){
+    //////////////////////////////////////////////////////////////////////////Colliders y muerte
+    void OnTriggerStay2D(Collider2D colli){
+            
+            if(Time.time - sufretime > 1f){
+                switch(colli.tag){
                 case "Enemy": 
                 Khalihealth -= 50;
-                
-                break;
-            /////
-                /*case "Balakokote":
-                enemyhealth -= 80;
-
-                break;
-            }
-            
-            if(Khalihealth <= 0){
-                Debug.Log("buuuu");
-                }
-            
+                Debug.Log("Ayayaya");
                 queja.Play();
-    }*/
+                sufretime = Time.time;
+                break;
+                /////
+                case "Duro":
+                Khalihealth -= 150;
+                Debug.Log("Ayayaya");
+                queja.Play();
+                break;
+                }
+            }
+    }
+
+
 }
 
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ataques : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Ataques : MonoBehaviour
     bool ulteando;
     float t;
     float cooldown;
+    public Sprite ultactivado;
+    public Sprite ultdesactivado;
     public Transform pposition;
     public GameObject proyectil1;
     public GameObject proyectil2;
@@ -50,12 +53,17 @@ public class Ataques : MonoBehaviour
 
         //////////////////////////////////////////////////////////////Sobrecarga ulti
 
-        if (Input.GetKey("r") && (animator.GetBool("Sobrecarga?")) && Time.time - cooldown > 7f){
+        if (Input.GetKey("r") && (animator.GetBool("Sobrecarga?")) && Time.time - cooldown > 10f){
 
             pepu = Instantiate(proyectil3, pposition.position + new Vector3 (0,0,-0.1f), pposition.rotation);
             animator.SetBool("Ataca?", true);
             ulteando = true;
             cooldown = Time.time;
+            GameObject.Find("CooldownAtaqueEsp").GetComponent<Image>().sprite = ultdesactivado;
+        }
+
+        if(Time.time - cooldown > 10f){
+            GameObject.Find("CooldownAtaqueEsp").GetComponent<Image>().sprite = ultactivado;
         }
 
         if(Time.time - cooldown > 0.6f && ulteando){
