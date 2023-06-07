@@ -5241,7 +5241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -850.2, y: -356.9}
+  m_AnchoredPosition: {x: -863.6, y: -310.4}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &560419917
@@ -6847,6 +6847,12 @@ MonoBehaviour:
   trans: {fileID: 671188807}
   salto: {fileID: 671188809}
   queja: {fileID: 671188810}
+  vidafull: {fileID: -1078167937, guid: ab595d8df49e7e647a02ef8493a6358b, type: 3}
+  vidamid: {fileID: 1509608117, guid: ab595d8df49e7e647a02ef8493a6358b, type: 3}
+  vidapoca: {fileID: -1400095321, guid: ab595d8df49e7e647a02ef8493a6358b, type: 3}
+  sobrecargafull: {fileID: 344611820, guid: 90f0f6ed96bba7548a1b48f429f67fcb, type: 3}
+  sobrecargamid: {fileID: -627146763, guid: 90f0f6ed96bba7548a1b48f429f67fcb, type: 3}
+  sobrecargalow: {fileID: 744785911, guid: 90f0f6ed96bba7548a1b48f429f67fcb, type: 3}
 --- !u!50 &671188801
 Rigidbody2D:
   serializedVersion: 4
@@ -12025,7 +12031,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15502,9 +15508,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -15537,7 +15543,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -15598,7 +15604,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 2
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

@@ -22,6 +22,14 @@ public class KN : MonoBehaviour
     public AudioSource trans;
     public AudioSource salto;
     public AudioSource queja;
+
+    public Sprite vidafull;
+    public Sprite vidamid;
+    public Sprite vidapoca;
+
+    public Sprite sobrecargafull;
+    public Sprite sobrecargamid;
+    public Sprite sobrecargalow;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +38,7 @@ public class KN : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         sonidot = false;
         transss = false;
+        intert = -1;
         sufretime = Time.time;
         blacktime = Time.time;
     }
@@ -150,7 +159,7 @@ public class KN : MonoBehaviour
 
         /////////////////////////////////////////////////////////////////////////////Transformación sobrecarga
 
-        if(Time.time - intert > 60f){
+        if(Time.time - intert > 60f && intert > -1){
             animator.SetBool("Sobrecarga?", true);
         }
 
@@ -170,6 +179,48 @@ public class KN : MonoBehaviour
                     transform.position = new Vector2(5.21f, -9.47f);
                 }
             }
+
+        if(intert > -1){
+            if(Time.time - intert < 20){
+                GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargalow;
+            }else if(Time.time - intert < 40){
+                GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargamid;
+            }else{
+                GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargafull;
+            }
+
+
+            /*switch(Time.time - intert){
+            case 20f:
+            GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargalow;
+            break;
+            
+            case 40f:
+            GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargamid;
+            break;
+            
+            case 58f:
+            GameObject.Find("BARRADESOBRECARGA").GetComponent<Image>().sprite = sobrecargafull;
+            break;*/
+        }
+    
+        
+
+        //////////////////////////////////////////////////////////////////////////Bajada vida
+
+        switch(Khalihealth){
+            case 150:
+            GameObject.Find("BARRAVIDA").GetComponent<Image>().sprite = vidafull;
+            break;
+            
+            case 100:
+            GameObject.Find("BARRAVIDA").GetComponent<Image>().sprite = vidamid;
+            break;
+            
+            case 50:
+            GameObject.Find("BARRAVIDA").GetComponent<Image>().sprite = vidapoca;
+            break;
+        }
     }
 
     ////////////////////////////////////////////////////////////////////////////

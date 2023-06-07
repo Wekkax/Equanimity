@@ -86,11 +86,7 @@ public class Ataques : MonoBehaviour
             animator.SetBool("Ataca?", false);
         }
 
-        //////////////////////////////////////////////////////Daño del ataque
-
-
-
-        /////////////////////////////////////////////////////Sonido Ulti
+       /////////////////////////////////////////////////////Sonido Ulti
 
         if (Input.GetKey("r") && animator.GetBool("Sobrecarga?")){
             //animator.SetBool("Ataca?", true);
