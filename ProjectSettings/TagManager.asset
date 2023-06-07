@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Duro
   - Boss
+  - Vida
   layers:
   - Default
   - TransparentFX

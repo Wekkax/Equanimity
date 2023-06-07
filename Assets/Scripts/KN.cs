@@ -8,13 +8,16 @@ public class KN : MonoBehaviour
     Animator animator;
     Rigidbody2D rigidBody2D;
     CapsuleCollider2D collider;
+    GameObject corazón;
     float caetime;
     bool sonidot;
     float sufretime;
     float blacktime;
     float intert;
+    float timertitulo;
     bool muriendo;
     bool transss;
+    bool enboss;
     public int Khalihealth = 150;
 
     public AudioSource pasos;
@@ -22,6 +25,10 @@ public class KN : MonoBehaviour
     public AudioSource trans;
     public AudioSource salto;
     public AudioSource queja;
+    public AudioSource cura;
+    public AudioSource aqua;
+
+    public AudioClip músicaboss;
 
     public Sprite vidafull;
     public Sprite vidamid;
@@ -38,9 +45,12 @@ public class KN : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         sonidot = false;
         transss = false;
+        enboss = false;
         intert = -1;
         sufretime = Time.time;
         blacktime = Time.time;
+        timertitulo = Time.time;
+        corazón = GameObject.Find("vida");
     }
 
     // Update is called once per frame
@@ -221,6 +231,25 @@ public class KN : MonoBehaviour
             GameObject.Find("BARRAVIDA").GetComponent<Image>().sprite = vidapoca;
             break;
         }
+
+        ///////////////////////////////////////////////////////////////////////////Entrada a sala Boss
+
+        if(enboss == true){
+            
+            if(Time.time - timertitulo < 0.5f){
+                GameObject.Find("titulo boss final").GetComponent<Image>().color = new Color(1f, 1f, 1f, (Time.time - timertitulo)/0.5f);
+            }else{
+                if(Time.time - timertitulo < 6f && Time.time - timertitulo > 5f){
+                    GameObject.Find("titulo boss final").GetComponent<Image>().color = new Color(1f, 1f, 1f, 1f -(Time.time - timertitulo -5f));
+                }
+            }
+            
+        }
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     ////////////////////////////////////////////////////////////////////////////
@@ -231,7 +260,7 @@ public class KN : MonoBehaviour
         }
     } 
 
-    //////////////////////////////////////////////////////////////////////////Colliders y muerte
+    //////////////////////////////////////////////////////////////////////////Colliders y muerte/Sala Boss/Ganar vida
     void OnTriggerStay2D(Collider2D colli){
             
             if(Time.time - sufretime > 1f){
@@ -250,14 +279,22 @@ public class KN : MonoBehaviour
                 break;
                 }
             }
+
+            if(colli.tag == "Boss" && !enboss){
+                enboss = true;
+                timertitulo = Time.time;
+
+                GameObject.Find("Música").GetComponent<AudioSource>().clip = músicaboss;
+                GameObject.Find("Música").GetComponent<AudioSource>().Play();
+                aqua.Play();
+            }
+
+            if(colli.tag == "Vida"){
+                Khalihealth += 50;
+                cura.Play();
+                Destroy(corazón);
+            }
     }
-
-
-    //////////////////////////////////////////////////////////////////////Entrada a Boss
-
-    /*void OnTriggerStay2D(Collider2D collu){
-        if()
-    }*/
 
 }
 
