@@ -96,6 +96,7 @@ public class EA : MonoBehaviour {
             ataca.Stop();
         }
        }else{
+        
         if(!haso){
             cmuere.Play();
             haso = true;

@@ -8,10 +8,11 @@ public class KN : MonoBehaviour
     Rigidbody2D rigidBody2D;
     CapsuleCollider2D collider;
     float caetime;
+    bool sonidot;
 
     public AudioSource pasos;
     public AudioSource ataque;
-    //public AudioSource trans;
+    public AudioSource trans;
     public AudioSource salto;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class KN : MonoBehaviour
         collider = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
+        sonidot = false;
     }
 
     // Update is called once per frame
@@ -111,18 +113,21 @@ public class KN : MonoBehaviour
             salto.Stop();
         }
 
-        /*if (animator.GetBool("Sobrecarga?") || animator.GetBool("Elige vuelta a intermedia")){
-            animator.SetBool("Sobrecarga?", true);
-            animator.SetBool("Elige vuelta a intermedia", true);
+        if (animator.GetBool("Sobrecarga?")){
 
-            if(!trans.isPlaying){
+            if(!sonidot){
                 trans.Play();
+                sonidot = true;
             }
-        }else{
-            trans.Stop();
-        }*/
+        }
 
+        if (animator.GetBool("Elige vuelta a intermedia")){
 
+            if(sonidot){
+                trans.Play();
+                sonidot = false;
+            }
+        }
 
         }
 

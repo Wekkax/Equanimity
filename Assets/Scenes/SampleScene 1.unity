@@ -6524,6 +6524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pasos: {fileID: 671188804}
   ataque: {fileID: 671188805}
+  trans: {fileID: 671188807}
   salto: {fileID: 671188809}
 --- !u!50 &671188801
 Rigidbody2D:
@@ -6881,7 +6882,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
