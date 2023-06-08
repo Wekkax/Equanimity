@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "Boceto_transformacio\u0301n-1-Sheet buena_0"
+  m_Name: Boceto_transformacion-1-Sheet buena_0
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
